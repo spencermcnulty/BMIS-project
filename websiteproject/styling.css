@@ -1,0 +1,85 @@
+/* CSS styles for index.html */
+
+body {
+    background-color: #ADD8E6; /* Light blue background color */
+    color: #333; /* Dark gray text color */
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+header {
+    background-color: #c3cfda; /* Dark blue background color */
+    color: #0fc3e7; /* White text color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center align text */
+}
+
+h1 {
+    color: hsl(236, 71%, 35%); /* White text color */
+    margin-top: 0; /* Remove top margin */
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* White background color with some transparency */
+    padding: 20px; /* Add padding */
+    margin: 20px auto; /* Add margin and auto to horizontally center */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+body {
+    background-image: url('istockphoto-1125710637-612x612.jpg'); /* Replace 'background_image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    color: #333; /* Dark gray text color */
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h2 {
+    margin-bottom: 10px;
+}
+
+.resume-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-item {
+    float: left;
+    width: 50%;
+}
+
+.experience-link {
+    float: left;
+    width: 50%;
+}
+
+.experience-link a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.content {
+    padding-top: 100px; /* Adjust according to the height of the header */
+    /* Add other styles for your content */
+}
